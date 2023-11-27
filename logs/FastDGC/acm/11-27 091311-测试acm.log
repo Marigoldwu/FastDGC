@@ -1,0 +1,607 @@
+The key points of this experiment: 测试acm
+random seed: 0
+****************************************Training loop No.1****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.27		nmi: 69.00		ari: 75.72		f1: 91.29		
+epoch: 002		loss: 1.4124		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.57		nmi: 70.61		ari: 76.41		f1: 91.61		
+epoch: 004		loss: 1.3339		acc: 91.57		nmi: 69.93		ari: 76.51		f1: 91.55		
+epoch: 005		loss: 1.3254		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2941		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2687		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.69		ari: 78.00		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1936		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.12		nmi: 74.44		ari: 80.61		f1: 93.12		
+epoch: 017		loss: 1.1665		acc: 93.19		nmi: 74.67		ari: 80.79		f1: 93.19		
+epoch: 018		loss: 1.1548		acc: 93.06		nmi: 74.33		ari: 80.43		f1: 93.06		
+epoch: 019		loss: 1.1450		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1320		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.16		nmi: 74.84		ari: 80.69		f1: 93.16		
+epoch: 023		loss: 1.1193		acc: 93.12		nmi: 74.69		ari: 80.60		f1: 93.13		
+epoch: 024		loss: 1.1124		acc: 93.16		nmi: 74.69		ari: 80.69		f1: 93.16		
+epoch: 025		loss: 1.1058		acc: 93.26		nmi: 74.83		ari: 80.94		f1: 93.26		
+epoch: 026		loss: 1.1006		acc: 93.36		nmi: 75.17		ari: 81.22		f1: 93.36		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0859		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0808		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0758		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0715		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0552		acc: 93.45		nmi: 75.37		ari: 81.47		f1: 93.46		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0501		acc: 93.55		nmi: 75.56		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0387		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 046		loss: 1.0373		acc: 93.52		nmi: 75.62		ari: 81.66		f1: 93.52		
+epoch: 047		loss: 1.0359		acc: 93.52		nmi: 75.57		ari: 81.66		f1: 93.52		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.47		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 345.08 MB.
+Time consuming: 5.57s or 0.09m
+****************************************Training loop No.2****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.24		nmi: 68.90		ari: 75.64		f1: 91.26		
+epoch: 002		loss: 1.4123		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.50		nmi: 70.43		ari: 76.24		f1: 91.55		
+epoch: 004		loss: 1.3338		acc: 91.47		nmi: 69.66		ari: 76.25		f1: 91.44		
+epoch: 005		loss: 1.3253		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2940		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2686		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.72		ari: 78.02		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1935		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.09		nmi: 74.34		ari: 80.53		f1: 93.09		
+epoch: 017		loss: 1.1665		acc: 93.09		nmi: 74.40		ari: 80.53		f1: 93.09		
+epoch: 018		loss: 1.1547		acc: 93.02		nmi: 74.25		ari: 80.34		f1: 93.03		
+epoch: 019		loss: 1.1449		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1319		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.12		nmi: 74.74		ari: 80.60		f1: 93.13		
+epoch: 023		loss: 1.1192		acc: 93.09		nmi: 74.62		ari: 80.51		f1: 93.10		
+epoch: 024		loss: 1.1124		acc: 93.12		nmi: 74.62		ari: 80.60		f1: 93.13		
+epoch: 025		loss: 1.1057		acc: 93.22		nmi: 74.76		ari: 80.85		f1: 93.23		
+epoch: 026		loss: 1.1005		acc: 93.39		nmi: 75.27		ari: 81.31		f1: 93.39		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0858		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0807		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0759		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0716		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.45		nmi: 75.43		ari: 81.48		f1: 93.46		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0551		acc: 93.49		nmi: 75.47		ari: 81.56		f1: 93.49		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0502		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0386		acc: 93.45		nmi: 75.31		ari: 81.47		f1: 93.46		
+epoch: 046		loss: 1.0372		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 047		loss: 1.0359		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.11s or 0.05m
+****************************************Training loop No.3****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.24		nmi: 68.90		ari: 75.64		f1: 91.26		
+epoch: 002		loss: 1.4123		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.50		nmi: 70.43		ari: 76.24		f1: 91.55		
+epoch: 004		loss: 1.3338		acc: 91.47		nmi: 69.66		ari: 76.25		f1: 91.44		
+epoch: 005		loss: 1.3253		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2940		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2686		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.72		ari: 78.02		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1935		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.09		nmi: 74.34		ari: 80.53		f1: 93.09		
+epoch: 017		loss: 1.1665		acc: 93.09		nmi: 74.40		ari: 80.53		f1: 93.09		
+epoch: 018		loss: 1.1547		acc: 93.02		nmi: 74.25		ari: 80.34		f1: 93.03		
+epoch: 019		loss: 1.1449		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1319		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.12		nmi: 74.74		ari: 80.60		f1: 93.13		
+epoch: 023		loss: 1.1192		acc: 93.09		nmi: 74.62		ari: 80.51		f1: 93.10		
+epoch: 024		loss: 1.1124		acc: 93.12		nmi: 74.62		ari: 80.60		f1: 93.13		
+epoch: 025		loss: 1.1057		acc: 93.22		nmi: 74.76		ari: 80.85		f1: 93.23		
+epoch: 026		loss: 1.1005		acc: 93.39		nmi: 75.27		ari: 81.31		f1: 93.39		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0858		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0807		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0759		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0716		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.45		nmi: 75.43		ari: 81.48		f1: 93.46		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0551		acc: 93.49		nmi: 75.47		ari: 81.56		f1: 93.49		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0502		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0386		acc: 93.45		nmi: 75.31		ari: 81.47		f1: 93.46		
+epoch: 046		loss: 1.0372		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 047		loss: 1.0359		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.1s or 0.05m
+****************************************Training loop No.4****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.24		nmi: 68.90		ari: 75.64		f1: 91.26		
+epoch: 002		loss: 1.4123		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.50		nmi: 70.43		ari: 76.24		f1: 91.55		
+epoch: 004		loss: 1.3338		acc: 91.47		nmi: 69.66		ari: 76.25		f1: 91.44		
+epoch: 005		loss: 1.3253		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2940		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2686		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.72		ari: 78.02		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1935		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.09		nmi: 74.34		ari: 80.53		f1: 93.09		
+epoch: 017		loss: 1.1665		acc: 93.09		nmi: 74.40		ari: 80.53		f1: 93.09		
+epoch: 018		loss: 1.1547		acc: 93.02		nmi: 74.25		ari: 80.34		f1: 93.03		
+epoch: 019		loss: 1.1449		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1319		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.12		nmi: 74.74		ari: 80.60		f1: 93.13		
+epoch: 023		loss: 1.1192		acc: 93.09		nmi: 74.62		ari: 80.51		f1: 93.10		
+epoch: 024		loss: 1.1124		acc: 93.12		nmi: 74.62		ari: 80.60		f1: 93.13		
+epoch: 025		loss: 1.1057		acc: 93.22		nmi: 74.76		ari: 80.85		f1: 93.23		
+epoch: 026		loss: 1.1005		acc: 93.39		nmi: 75.27		ari: 81.31		f1: 93.39		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0858		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0807		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0759		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0716		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.45		nmi: 75.43		ari: 81.48		f1: 93.46		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0551		acc: 93.49		nmi: 75.47		ari: 81.56		f1: 93.49		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0502		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0386		acc: 93.45		nmi: 75.31		ari: 81.47		f1: 93.46		
+epoch: 046		loss: 1.0372		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 047		loss: 1.0359		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.13s or 0.05m
+****************************************Training loop No.5****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.24		nmi: 68.90		ari: 75.64		f1: 91.26		
+epoch: 002		loss: 1.4123		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.50		nmi: 70.43		ari: 76.24		f1: 91.55		
+epoch: 004		loss: 1.3338		acc: 91.47		nmi: 69.66		ari: 76.25		f1: 91.44		
+epoch: 005		loss: 1.3253		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2940		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2686		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.72		ari: 78.02		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1935		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.09		nmi: 74.34		ari: 80.53		f1: 93.09		
+epoch: 017		loss: 1.1665		acc: 93.09		nmi: 74.40		ari: 80.53		f1: 93.09		
+epoch: 018		loss: 1.1547		acc: 93.02		nmi: 74.25		ari: 80.34		f1: 93.03		
+epoch: 019		loss: 1.1449		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1319		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.12		nmi: 74.74		ari: 80.60		f1: 93.13		
+epoch: 023		loss: 1.1192		acc: 93.09		nmi: 74.62		ari: 80.51		f1: 93.10		
+epoch: 024		loss: 1.1124		acc: 93.12		nmi: 74.62		ari: 80.60		f1: 93.13		
+epoch: 025		loss: 1.1057		acc: 93.22		nmi: 74.76		ari: 80.85		f1: 93.23		
+epoch: 026		loss: 1.1005		acc: 93.39		nmi: 75.27		ari: 81.31		f1: 93.39		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0858		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0807		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0759		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0716		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.45		nmi: 75.43		ari: 81.48		f1: 93.46		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0551		acc: 93.49		nmi: 75.47		ari: 81.56		f1: 93.49		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0502		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0386		acc: 93.45		nmi: 75.31		ari: 81.47		f1: 93.46		
+epoch: 046		loss: 1.0372		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 047		loss: 1.0359		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.15s or 0.05m
+****************************************Training loop No.6****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.24		nmi: 68.90		ari: 75.64		f1: 91.26		
+epoch: 002		loss: 1.4123		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.50		nmi: 70.43		ari: 76.24		f1: 91.55		
+epoch: 004		loss: 1.3338		acc: 91.47		nmi: 69.66		ari: 76.25		f1: 91.44		
+epoch: 005		loss: 1.3253		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2940		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2686		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.72		ari: 78.02		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1935		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.09		nmi: 74.34		ari: 80.53		f1: 93.09		
+epoch: 017		loss: 1.1665		acc: 93.09		nmi: 74.40		ari: 80.53		f1: 93.09		
+epoch: 018		loss: 1.1547		acc: 93.02		nmi: 74.25		ari: 80.34		f1: 93.03		
+epoch: 019		loss: 1.1449		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1319		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.12		nmi: 74.74		ari: 80.60		f1: 93.13		
+epoch: 023		loss: 1.1192		acc: 93.09		nmi: 74.62		ari: 80.51		f1: 93.10		
+epoch: 024		loss: 1.1124		acc: 93.12		nmi: 74.62		ari: 80.60		f1: 93.13		
+epoch: 025		loss: 1.1057		acc: 93.22		nmi: 74.76		ari: 80.85		f1: 93.23		
+epoch: 026		loss: 1.1005		acc: 93.39		nmi: 75.27		ari: 81.31		f1: 93.39		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0858		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0807		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0759		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0716		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.45		nmi: 75.43		ari: 81.48		f1: 93.46		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0551		acc: 93.49		nmi: 75.47		ari: 81.56		f1: 93.49		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0502		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0386		acc: 93.45		nmi: 75.31		ari: 81.47		f1: 93.46		
+epoch: 046		loss: 1.0372		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 047		loss: 1.0359		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.11s or 0.05m
+****************************************Training loop No.7****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.24		nmi: 68.90		ari: 75.64		f1: 91.26		
+epoch: 002		loss: 1.4123		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.50		nmi: 70.43		ari: 76.24		f1: 91.55		
+epoch: 004		loss: 1.3338		acc: 91.47		nmi: 69.66		ari: 76.25		f1: 91.44		
+epoch: 005		loss: 1.3253		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2940		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2686		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.72		ari: 78.02		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1935		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.09		nmi: 74.34		ari: 80.53		f1: 93.09		
+epoch: 017		loss: 1.1665		acc: 93.09		nmi: 74.40		ari: 80.53		f1: 93.09		
+epoch: 018		loss: 1.1547		acc: 93.02		nmi: 74.25		ari: 80.34		f1: 93.03		
+epoch: 019		loss: 1.1449		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1319		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.12		nmi: 74.74		ari: 80.60		f1: 93.13		
+epoch: 023		loss: 1.1192		acc: 93.09		nmi: 74.62		ari: 80.51		f1: 93.10		
+epoch: 024		loss: 1.1124		acc: 93.12		nmi: 74.62		ari: 80.60		f1: 93.13		
+epoch: 025		loss: 1.1057		acc: 93.22		nmi: 74.76		ari: 80.85		f1: 93.23		
+epoch: 026		loss: 1.1005		acc: 93.39		nmi: 75.27		ari: 81.31		f1: 93.39		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0858		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0807		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0759		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0716		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.45		nmi: 75.43		ari: 81.48		f1: 93.46		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0551		acc: 93.49		nmi: 75.47		ari: 81.56		f1: 93.49		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0502		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0386		acc: 93.45		nmi: 75.31		ari: 81.47		f1: 93.46		
+epoch: 046		loss: 1.0372		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 047		loss: 1.0359		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.12s or 0.05m
+****************************************Training loop No.8****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.27		nmi: 69.00		ari: 75.72		f1: 91.29		
+epoch: 002		loss: 1.4124		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.57		nmi: 70.61		ari: 76.41		f1: 91.61		
+epoch: 004		loss: 1.3339		acc: 91.57		nmi: 69.93		ari: 76.51		f1: 91.55		
+epoch: 005		loss: 1.3254		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2941		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2687		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.69		ari: 78.00		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1936		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.12		nmi: 74.44		ari: 80.61		f1: 93.12		
+epoch: 017		loss: 1.1665		acc: 93.19		nmi: 74.67		ari: 80.79		f1: 93.19		
+epoch: 018		loss: 1.1548		acc: 93.06		nmi: 74.33		ari: 80.43		f1: 93.06		
+epoch: 019		loss: 1.1450		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1320		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.16		nmi: 74.84		ari: 80.69		f1: 93.16		
+epoch: 023		loss: 1.1193		acc: 93.12		nmi: 74.69		ari: 80.60		f1: 93.13		
+epoch: 024		loss: 1.1124		acc: 93.16		nmi: 74.69		ari: 80.69		f1: 93.16		
+epoch: 025		loss: 1.1058		acc: 93.26		nmi: 74.83		ari: 80.94		f1: 93.26		
+epoch: 026		loss: 1.1006		acc: 93.36		nmi: 75.17		ari: 81.22		f1: 93.36		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0859		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0808		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0758		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0715		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0552		acc: 93.45		nmi: 75.37		ari: 81.47		f1: 93.46		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0501		acc: 93.55		nmi: 75.56		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0387		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 046		loss: 1.0373		acc: 93.52		nmi: 75.62		ari: 81.66		f1: 93.52		
+epoch: 047		loss: 1.0359		acc: 93.52		nmi: 75.57		ari: 81.66		f1: 93.52		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.47		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.12s or 0.05m
+****************************************Training loop No.9****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.24		nmi: 68.90		ari: 75.64		f1: 91.26		
+epoch: 002		loss: 1.4123		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.50		nmi: 70.43		ari: 76.24		f1: 91.55		
+epoch: 004		loss: 1.3338		acc: 91.47		nmi: 69.66		ari: 76.25		f1: 91.44		
+epoch: 005		loss: 1.3253		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2940		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2686		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.72		ari: 78.02		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1935		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.09		nmi: 74.34		ari: 80.53		f1: 93.09		
+epoch: 017		loss: 1.1665		acc: 93.09		nmi: 74.40		ari: 80.53		f1: 93.09		
+epoch: 018		loss: 1.1547		acc: 93.02		nmi: 74.25		ari: 80.34		f1: 93.03		
+epoch: 019		loss: 1.1449		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1319		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.12		nmi: 74.74		ari: 80.60		f1: 93.13		
+epoch: 023		loss: 1.1192		acc: 93.09		nmi: 74.62		ari: 80.51		f1: 93.10		
+epoch: 024		loss: 1.1124		acc: 93.12		nmi: 74.62		ari: 80.60		f1: 93.13		
+epoch: 025		loss: 1.1057		acc: 93.22		nmi: 74.76		ari: 80.85		f1: 93.23		
+epoch: 026		loss: 1.1005		acc: 93.39		nmi: 75.27		ari: 81.31		f1: 93.39		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0858		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0807		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0759		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0716		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.45		nmi: 75.43		ari: 81.48		f1: 93.46		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0551		acc: 93.49		nmi: 75.47		ari: 81.56		f1: 93.49		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0502		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0386		acc: 93.45		nmi: 75.31		ari: 81.47		f1: 93.46		
+epoch: 046		loss: 1.0372		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 047		loss: 1.0359		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.14s or 0.05m
+****************************************Training loop No.10****************************************
+FastDGC(
+  (egae): EGAE(
+    (fcn): Linear(in_features=1870, out_features=128, bias=True)
+    (gcn): GFilter()
+  )
+)
+epoch: 001		loss: 1.3568		acc: 91.24		nmi: 68.90		ari: 75.64		f1: 91.26		
+epoch: 002		loss: 1.4123		acc: 87.83		nmi: 62.30		ari: 66.59		f1: 87.83		
+epoch: 003		loss: 1.3333		acc: 91.50		nmi: 70.43		ari: 76.24		f1: 91.55		
+epoch: 004		loss: 1.3338		acc: 91.47		nmi: 69.66		ari: 76.25		f1: 91.44		
+epoch: 005		loss: 1.3253		acc: 91.21		nmi: 68.70		ari: 75.48		f1: 91.19		
+epoch: 006		loss: 1.2940		acc: 92.20		nmi: 71.70		ari: 78.11		f1: 92.23		
+epoch: 007		loss: 1.2686		acc: 92.56		nmi: 72.85		ari: 79.06		f1: 92.59		
+epoch: 008		loss: 1.2551		acc: 92.40		nmi: 72.69		ari: 78.64		f1: 92.42		
+epoch: 009		loss: 1.2492		acc: 92.30		nmi: 73.07		ari: 78.43		f1: 92.30		
+epoch: 010		loss: 1.2385		acc: 92.13		nmi: 72.72		ari: 78.02		f1: 92.13		
+epoch: 011		loss: 1.2223		acc: 92.33		nmi: 72.86		ari: 78.52		f1: 92.33		
+epoch: 012		loss: 1.2082		acc: 92.60		nmi: 73.20		ari: 79.20		f1: 92.60		
+epoch: 013		loss: 1.1992		acc: 92.83		nmi: 73.58		ari: 79.80		f1: 92.83		
+epoch: 014		loss: 1.1935		acc: 93.16		nmi: 74.52		ari: 80.69		f1: 93.16		
+epoch: 015		loss: 1.1872		acc: 93.09		nmi: 74.32		ari: 80.52		f1: 93.09		
+epoch: 016		loss: 1.1783		acc: 93.09		nmi: 74.34		ari: 80.53		f1: 93.09		
+epoch: 017		loss: 1.1665		acc: 93.09		nmi: 74.40		ari: 80.53		f1: 93.09		
+epoch: 018		loss: 1.1547		acc: 93.02		nmi: 74.25		ari: 80.34		f1: 93.03		
+epoch: 019		loss: 1.1449		acc: 93.12		nmi: 74.53		ari: 80.60		f1: 93.12		
+epoch: 020		loss: 1.1377		acc: 93.12		nmi: 74.63		ari: 80.60		f1: 93.12		
+epoch: 021		loss: 1.1319		acc: 93.09		nmi: 74.64		ari: 80.51		f1: 93.10		
+epoch: 022		loss: 1.1259		acc: 93.12		nmi: 74.74		ari: 80.60		f1: 93.13		
+epoch: 023		loss: 1.1192		acc: 93.09		nmi: 74.62		ari: 80.51		f1: 93.10		
+epoch: 024		loss: 1.1124		acc: 93.12		nmi: 74.62		ari: 80.60		f1: 93.13		
+epoch: 025		loss: 1.1057		acc: 93.22		nmi: 74.76		ari: 80.85		f1: 93.23		
+epoch: 026		loss: 1.1005		acc: 93.39		nmi: 75.27		ari: 81.31		f1: 93.39		
+epoch: 027		loss: 1.0953		acc: 93.32		nmi: 75.01		ari: 81.13		f1: 93.32		
+epoch: 028		loss: 1.0908		acc: 93.29		nmi: 74.91		ari: 81.05		f1: 93.29		
+epoch: 029		loss: 1.0858		acc: 93.36		nmi: 75.12		ari: 81.22		f1: 93.36		
+epoch: 030		loss: 1.0807		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 031		loss: 1.0759		acc: 93.42		nmi: 75.33		ari: 81.39		f1: 93.43		
+epoch: 032		loss: 1.0716		acc: 93.39		nmi: 75.25		ari: 81.30		f1: 93.39		
+epoch: 033		loss: 1.0677		acc: 93.49		nmi: 75.55		ari: 81.57		f1: 93.49		
+epoch: 034		loss: 1.0642		acc: 93.45		nmi: 75.43		ari: 81.48		f1: 93.46		
+epoch: 035		loss: 1.0607		acc: 93.39		nmi: 75.22		ari: 81.30		f1: 93.39		
+epoch: 036		loss: 1.0578		acc: 93.42		nmi: 75.29		ari: 81.39		f1: 93.42		
+epoch: 037		loss: 1.0551		acc: 93.49		nmi: 75.47		ari: 81.56		f1: 93.49		
+epoch: 038		loss: 1.0527		acc: 93.49		nmi: 75.45		ari: 81.56		f1: 93.49		
+epoch: 039		loss: 1.0502		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 040		loss: 1.0478		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 041		loss: 1.0457		acc: 93.59		nmi: 75.66		ari: 81.82		f1: 93.59		
+epoch: 042		loss: 1.0437		acc: 93.55		nmi: 75.59		ari: 81.73		f1: 93.56		
+epoch: 043		loss: 1.0419		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 044		loss: 1.0403		acc: 93.49		nmi: 75.41		ari: 81.56		f1: 93.49		
+epoch: 045		loss: 1.0386		acc: 93.45		nmi: 75.31		ari: 81.47		f1: 93.46		
+epoch: 046		loss: 1.0372		acc: 93.49		nmi: 75.46		ari: 81.57		f1: 93.49		
+epoch: 047		loss: 1.0359		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 048		loss: 1.0347		acc: 93.49		nmi: 75.49		ari: 81.57		f1: 93.49		
+epoch: 049		loss: 1.0337		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+epoch: 050		loss: 1.0327		acc: 93.45		nmi: 75.40		ari: 81.48		f1: 93.46		
+The total number of parameters is: 0.24368M(1e6).
+The max memory allocated to model is: 347.93 MB.
+Time consuming: 3.12s or 0.05m
+Namespace(adj_loop=True, adj_norm=False, adj_symmetric=True, adj_type='tensor', clustering_tsne_save_path='./img/clustering/FastDGC/acm/', clusters=3, dataset_name='acm', dataset_path='./', desc='测试acm', device='cuda', embedding_dim=32, embedding_heatmap_save_path='./img/heatmap/FastDGC/acm/', feature_type='tensor', gap=2, input_dim=1870, is_pretrain=False, k=None, label_type='npy', linear_dim=128, log_save_path='./logs/FastDGC/acm/', loops=10, lr=0.003, max_epoch=50, model_name='FastDGC', nodes=3025, plot_clustering_tsne=False, plot_embedding_heatmap=False, pre_times=3, pretrain_epoch=30, pretrain_lr=0.001, pretrain_save_path='./pretrain/pretrain_egae/FastDGC/acm/', root=None, seed=0, t=None, threshold=0.5, times=1)
+Total loops: 10
+****************************************Mean value****************************************
+acc: 93.59±0.00		nmi: 75.66±0.00		ari: 81.82±0.00		f1: 93.59±0.00
+Training over! Punch out!
