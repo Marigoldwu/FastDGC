@@ -26,4 +26,8 @@ python main.py -M FastDGC -D acm -LS 10 -DS FastDGC在ACM数据集上进行10次
 >- You can use -H to obtain the heatmap of embeddings, and the picture will be saved to the 'img/heatmap/FastDGC'.
 >- Note that **LS** should be set to **1**, otherwise a picture will be drawn for each experiment
 
+## Colab Notebook
+
+[https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing](https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing)
+
 Our paper is under review. More details will be released after the paper is accepted.
