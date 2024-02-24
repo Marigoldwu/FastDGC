@@ -22,12 +22,12 @@ torch==1.11.0
 python main.py -M FastDGC -D acm -LS 10 -DS FastDGC在ACM数据集上进行10次实验
 ```
 
->- You can use -TS to obtain the t-SNE visualization of clustering results, and the picture will be saved to the 'img/clustering/FastDGC'.
->- You can use -H to obtain the heatmap of embeddings, and the picture will be saved to the 'img/heatmap/FastDGC'.
->- Note that **LS** should be set to **1**, otherwise a picture will be drawn for each experiment
+>- You can modify the data set through the -D command. Optional data sets are [acm, dblp]. If you want to run other datasets, please go to the [website ](https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering) to download.
+>- You can use -TS to obtain the t-SNE visualization of clustering results, and the picture will be saved to the 'img/clustering/FastDGC'. Note that **LS** should be set to **1**, otherwise a picture will be drawn for each experiment
+>- You can use -H to obtain the heatmap of embeddings, and the picture will be saved to the 'img/heatmap/FastDGC'. Note that **LS** should be set to **1**, otherwise a picture will be drawn for each experiment
 
 ## Colab Notebook
 
-[https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing](https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing)
+Or you can download and unzip the code to Google Drive, name it FastDGC, and then run it in Colab. [https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing](https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing)
 
-Our paper is under review. More details will be released after the paper is accepted.
+Our paper is under review. 
