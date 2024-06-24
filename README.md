@@ -4,7 +4,7 @@ An official code for paper "Towards Faster Deep Graph Clustering via Efficient G
 
 ## Requirements
 
-The proposed GCMA is implemented with python 3.7 on a Tesla T4 GPU.
+The proposed FastDGC is implemented with python 3.10.12 on a Tesla T4 GPU.
 
 Python package information is summarized in **requirements.txt**:
 
@@ -13,13 +13,13 @@ matplotlib==3.5.3
 munkres==1.1.4
 numpy==1.21.5
 scikit_learn==1.0.2
-torch==1.11.0
+torch==2.3.0
 ```
 
 ## Quick Start
 
 ```
-python main.py -M FastDGC -D acm -LS 10 -DS FastDGC在ACM数据集上进行10次实验
+python main.py -M FastDGC -D acm -LS 10
 ```
 
 >- You can modify the data set through the -D command. Optional data sets are [acm, dblp]. If you want to run other datasets, please go to the [website ](https://github.com/yueliu1999/Awesome-Deep-Graph-Clustering) to download.
@@ -30,4 +30,4 @@ python main.py -M FastDGC -D acm -LS 10 -DS FastDGC在ACM数据集上进行10次
 
 Or you can download and unzip the code to Google Drive, name it FastDGC, and then run it in Colab. [https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing](https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing)
 
-Our paper is under review. 
+Our paper is just accepted by ACM Transactions on Knowledge Discovery from Data. 
