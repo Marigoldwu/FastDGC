@@ -1,6 +1,6 @@
 # Towards Faster Deep Graph Clustering via Efficient Graph Auto-encoder
 
-An official code for paper "Towards Faster Deep Graph Clustering via Efficient Graph Auto-Encoder". This repository is based on the unified framework for deep attribute graph clustering (https://github.com/Marigoldwu/A-Unified-Framework-for-Deep-Attribute-Graph-Clustering) .
+An official code for paper "[Towards Faster Deep Graph Clustering via Efficient Graph Auto-Encoder](https://dl.acm.org/doi/10.1145/3674983)". This repository is based on the unified framework for deep attribute graph clustering (https://github.com/Marigoldwu/A-Unified-Framework-for-Deep-Attribute-Graph-Clustering) .
 
 ## Requirements
 
@@ -31,3 +31,24 @@ python main.py -M FastDGC -D acm -LS 10
 Or you can download and unzip the code to Google Drive, name it FastDGC, and then run it in Colab. [https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing](https://colab.research.google.com/drive/1u89965L3AejZVWVlE1B70MfqNESdtvtj?usp=sharing)
 
 Our paper is just accepted by ACM Transactions on Knowledge Discovery from Data. 
+
+## Citation
+
+If you use our code, please cite our paper as:
+
+```
+@article{ding2024towards,
+author = {Ding, Shifei and Wu, Benyu and Ding, Ling and Xu, Xiao and Guo, Lili and Liao, Hongmei and Wu, Xindong},
+title = {Towards Faster Deep Graph Clustering via Efficient Graph Auto-Encoder},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1556-4681},
+url = {https://doi.org/10.1145/3674983},
+doi = {10.1145/3674983},
+note = {Just Accepted},
+journal = {ACM Trans. Knowl. Discov. Data},
+month = {jun},
+}
+```
+
