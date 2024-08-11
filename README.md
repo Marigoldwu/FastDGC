@@ -18,7 +18,18 @@ torch==2.3.0
 
 ## Quick Start
 
+Pre-training for new dataset
+
+```shell
+python main.py -P -M pretrain_egae_for_FastDGC -D cora -LS 1 -S 325
 ```
+
+> - The pre-training code file is located at ./model/pretrain_egae_for_FastDGC/train.py.
+> - Pre-trained datasets [acm, dblp, cora, cite, amap, wisc, texas], which are saved at ./pretrain/pretrain_egae/FastDGC/.
+
+### Fine-tuning for pre-trained dataset
+
+```shell
 python main.py -M FastDGC -D acm -LS 10
 ```
 

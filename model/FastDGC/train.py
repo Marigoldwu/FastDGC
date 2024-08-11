@@ -25,6 +25,8 @@ def train(args, data, logger):
                    "dblp": [50, 2e-2, 256, 16, 3, 1, 0, 10],
                    "cite": [50, 2e-3, 1024, 32, 3, 3, 0.1, 2],
                    "amap": [50, 5e-4, 128, 32, 1, 2, 0, 0],
+                   "wisc": [50, 5e-3,256, 32, 1, 1, 0.5, 1],
+                   "texas": [50, 1e-2, 128, 32, 1, 1, 0.5, 1]
                    }
     args.max_epoch = params_dict[args.dataset_name][0]
     args.lr = params_dict[args.dataset_name][1]

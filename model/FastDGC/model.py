@@ -19,13 +19,11 @@ class FastDGC(nn.Module):
         # cluster layer
         self.cluster_layer = Parameter(torch.Tensor(clusters, embedding_dim))
         torch.nn.init.xavier_normal_(self.cluster_layer.data)
-
-        # degree
         self.v = v
 
     def forward(self, x, adj_norm, times):
         A_pred, embedding, x_d = self.egae(x, adj_norm, times)
-        # Dual Self-supervised Module
+
         q = 1.0 / (1.0 + torch.sum(torch.pow(embedding.unsqueeze(1) - self.cluster_layer, 2), 2) / self.v)
         q = q.pow((self.v + 1.0) / 2.0)
         q = (q.t() / torch.sum(q, 1)).t()
