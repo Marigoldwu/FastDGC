@@ -52,14 +52,19 @@ If you use our code, please cite our paper as:
 author = {Ding, Shifei and Wu, Benyu and Ding, Ling and Xu, Xiao and Guo, Lili and Liao, Hongmei and Wu, Xindong},
 title = {Towards Faster Deep Graph Clustering via Efficient Graph Auto-Encoder},
 year = {2024},
+issue_date = {September 2024},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
+volume = {18},
+number = {8},
 issn = {1556-4681},
 url = {https://doi.org/10.1145/3674983},
 doi = {10.1145/3674983},
-note = {Just Accepted},
 journal = {ACM Trans. Knowl. Discov. Data},
-month = {jun},
+month = {aug},
+articleno = {202},
+numpages = {23},
+keywords = {Deep graph clustering, graph auto-encoder, graph neural networks, unsupervised learning}
 }
 ```
 
